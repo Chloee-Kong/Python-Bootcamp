@@ -1,7 +1,7 @@
 from numpad import NumPad
 from constant import *
 
-
+# place chess and record its place
 def place(place_index, chess_type, pad):
     if place_index in PLACE_RANGE:
         if pad[place_index] in PLACE_RANGE:
